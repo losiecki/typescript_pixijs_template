@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible” content=”IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- build:css css/main.css -->
+  <link rel="stylesheet" media="all" href="/css/main.css">
+  <!-- endbuild -->
+  <script src="lib/js/pixi.min.js"></script>
+  <script src="lib/js/stats.min.js"></script>
+</head>
+<body>
+  <canvas id="main-canvas"></canvas>
+  <!--// inject-->
+  <!-- build:remove -->
+  <script src="system.js"></script>
+  <script>
+    System.config({
+      baseURL: '.',
+      packages: {
+        '.': {
+          defaultExtension: 'js'
+        }
+      },
+    });
+    System.import('tsc/Main');
+  </script>
+  <!-- endbuild -->
+</body>
+</html>
