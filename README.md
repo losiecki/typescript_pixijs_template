@@ -12,8 +12,6 @@ live-server,
 
 npm commands:
 
-dev - creates server, compiles typescript code on the fly to the build folder, copies html file to the build folder. 
-
+dev - creates server, compiles typescript code on the fly to the build folder, copies html file to the build folder.
 dist - copies and minifies all files (into dist folder), creates revisions, deletes console logs.
-
 Commands are also available via vscode tasks
