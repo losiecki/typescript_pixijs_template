@@ -11,3 +11,4 @@ export class AssetsLoader {
         PIXI.loader.add("assets/pixi.png");
     }
 }
+

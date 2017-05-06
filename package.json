@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "scripts": {
     "config": "mklink /d node_modules D:\\user\\Library\\node_modules",
-    "start": "gulp watch | tsc --watch | live-server build",
-    "dev": "gulp watch | tsc --watch | live-server build",
-    "dist": "gulp dist && node ./tasks/bundle && gulp usemin && live-server dist"
+    "start": "gulp watch | live-server build",
+    "dev": "gulp watch | live-server build",
+    "dist": "gulp dist && node ./tasks/bundle && gulp usemin && live-server dist",
+    "tsc": "tsc || echo tsc done"
   },
   "devDependencies": {
     "del": "^2.2.0",
@@ -22,6 +23,7 @@
     "require-dir": "^0.3.0",
     "run-sequence": "^1.2.1",
     "st": "^1.1.0",
+    "gulp-shell": "^0.6.3",
     "systemjs-builder": "^0.16.4"
   },
   "dependencies": {

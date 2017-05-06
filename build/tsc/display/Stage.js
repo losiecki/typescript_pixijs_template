@@ -1,14 +1,14 @@
-System.register(["../utils/AssetsLoader"], function(exports_1, context_1) {
+System.register(["../utils/AssetsLoader"], function (exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
-    var AssetsLoader_1;
-    var display;
+    var AssetsLoader_1, display;
     return {
-        setters:[
+        setters: [
             function (AssetsLoader_1_1) {
                 AssetsLoader_1 = AssetsLoader_1_1;
-            }],
-        execute: function() {
+            }
+        ],
+        execute: function () {
             (function (display) {
                 var Stage = (function () {
                     function Stage() {
@@ -58,9 +58,9 @@ System.register(["../utils/AssetsLoader"], function(exports_1, context_1) {
                     return Stage;
                 }());
                 display.Stage = Stage;
-            })(display = display || (display = {}));
+            })(display || (display = {}));
             exports_1("display", display);
         }
-    }
+    };
 });
 //# sourceMappingURL=Stage.js.map

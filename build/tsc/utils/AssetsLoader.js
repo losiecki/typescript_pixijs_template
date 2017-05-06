@@ -1,10 +1,10 @@
-System.register([], function(exports_1, context_1) {
+System.register([], function (exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var AssetsLoader;
     return {
-        setters:[],
-        execute: function() {
+        setters: [],
+        execute: function () {
             AssetsLoader = (function () {
                 function AssetsLoader() {
                 }
@@ -18,6 +18,6 @@ System.register([], function(exports_1, context_1) {
             }());
             exports_1("AssetsLoader", AssetsLoader);
         }
-    }
+    };
 });
 //# sourceMappingURL=AssetsLoader.js.map

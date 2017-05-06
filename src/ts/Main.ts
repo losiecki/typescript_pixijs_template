@@ -7,5 +7,4 @@ export class Main {
       this.stage = new display.Stage();
   }
 }
-
 let main = new Main('Main Pixi');
