@@ -4,9 +4,7 @@
   "scripts": {
     "config": "mklink /d node_modules D:\\user\\Library\\node_modules",
     "start": "gulp watch | live-server build",
-    "dev": "gulp watch | live-server build",
-    "dist": "gulp dist && node ./tasks/bundle && gulp usemin && live-server dist",
-    "tsc": "tsc || echo tsc done"
+    "dist": "gulp dist && node ./tasks/bundle && gulp usemin && live-server dist"
   },
   "devDependencies": {
     "del": "^2.2.0",

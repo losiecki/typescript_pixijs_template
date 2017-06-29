@@ -1,3 +1,6 @@
+Template for PixiJS (TypeScript)
+=============
+
 
 Template for PixiJS TypeScript project with live reload, build and deploy to distribution features.
 
@@ -9,11 +12,14 @@ typescript,
 gulp,
 live-server
 
+```
+$> npm install -g typescript gulp-cli live-server
+```
 
-npm commands:
+### npm commands: ###
 
-dev - creates server, compiles typescript code on the fly to the build folder, copies html file to the build folder.
+- start - creates server, watches for html changes and copies html file to the build folder.
 
-dist - copies and minifies all files (into dist folder), creates revisions, deletes console logs.
+- dist - copies and minifies all files (into dist folder), creates files revisions, deletes console logs
 
-Commands are also available via vscode tasks
+Typescript is compiled manually via VS Code (Ctrl+Shift+b)
